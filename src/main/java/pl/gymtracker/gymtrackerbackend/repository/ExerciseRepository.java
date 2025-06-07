@@ -1,12 +1,10 @@
 package pl.gymtracker.gymtrackerbackend.repository;
 
 import org.springframework.data.jpa.repository.JpaRepository;
-import pl.gymtracker.gymtrackerbackend.entity.Exercise;
+import org.springframework.stereotype.Repository;
+import pl.gymtracker.gymtrackerbackend.model.Exercise;
 
-import java.util.Optional;
-
+@Repository
 public interface ExerciseRepository extends JpaRepository<Exercise, Integer> {
-
-    Optional<Exercise> findByName(String name);
-
+    // Możesz dodać metody pomocnicze, jeśli konieczne
 }
