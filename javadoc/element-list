@@ -1,0 +1,7 @@
+pl.gymtracker.gymtrackerbackend
+pl.gymtracker.gymtrackerbackend.config
+pl.gymtracker.gymtrackerbackend.controller
+pl.gymtracker.gymtrackerbackend.dto
+pl.gymtracker.gymtrackerbackend.entity
+pl.gymtracker.gymtrackerbackend.repository
+pl.gymtracker.gymtrackerbackend.service
